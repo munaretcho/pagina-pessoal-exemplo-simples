@@ -1,0 +1,143 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilizando a imagem do perfil */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+header a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Estilizando as seções */
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+p, ul {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* qualificações */
+.qualifications ul {
+    list-style-type: square;
+}
+
+/* Contatos superior */
+.contact-info {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.contact-info a {
+    color: #e74c3c;
+}
+
+/* Seções específicas */
+.languages, .skills, .courses, .education {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.languages div, .skills div, .courses div, .education div {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.languages div:last-child, .skills div:last-child, .courses div:last-child, .education div:last-child {
+    margin-right: 0;
+}
+
+.languages p, .skills p, .courses p, .education p {
+    font-size: 1rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.languages h3, .skills h3, .courses h3, .education h3 {
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+/* "Sobre Mim" */
+.about {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
